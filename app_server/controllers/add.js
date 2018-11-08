@@ -3,7 +3,7 @@ var apiOptions = {
     server: "http://localhost:3000"
 };
 var renderForm = function(req, res) {
-    res.render('add_edit', { title: 'Add Food Items' });
+    res.render('add', { title: 'Add Food Items' });
 }
 
 module.exports.foodCreate = function(req, res) {
